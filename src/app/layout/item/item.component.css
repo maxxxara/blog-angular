@@ -1,0 +1,10 @@
+.item:hover h4 {
+    color: #FF5480;
+    transition: all .3s;
+}
+.item:hover img{
+    scale: 1.03;
+    padding-bottom: 4px;
+    transition: all .3s;
+
+}

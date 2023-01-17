@@ -1,0 +1,10 @@
+<a class="transition-all item w-full" routerLink="/single">
+    <div class="w-full" [style.height.px]="height">
+        <img src={{item.image}} class="w-full h-full rounded-lg">
+    </div>
+    <div class="flex justify-between text-sm mt-2">
+        <p>{{item.topic}}</p>
+        <p class="text-gray">{{item.date}}</p>
+    </div>
+    <h4 class="text-2xl font-semibold mt-4 leading-9">{{item.title}}</h4>
+</a>

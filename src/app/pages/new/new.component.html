@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="mb-14 mt-4">
+        <h4 class="font-bold text-3xl">{{pageTitle}}</h4>
+        <p class="text-sm w-[470px] mt-8 leading-6 tracking-wider">{{pageDescription}}</p>
+    </div>
+</div>
+<div class="bg-bogyBg pt-14">
+    <div class="container">
+        <div class="grid grid-cols-3 gap-10">
+            <app-item *ngFor="let item of data" [item]="item" height="280"></app-item>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

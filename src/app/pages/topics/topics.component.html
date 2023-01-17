@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="mb-14 mt-4">
+        <h4 class="font-bold text-3xl">Topics</h4>
+        <p class="text-sm w-[470px] sm:w-full mt-8 leading-6 tracking-wider">Find everything from design inspiration to best practices, freelancing tips to tools.</p>
+    </div>
+</div>
+
+<div class="bg-bogyBg">
+    <div class="container pt-14 pb-24">
+        <div class="grid grid-cols-2 gap-6 md:grid-cols-1">
+            <app-topic-item *ngFor="let item of data" [item]="item"></app-topic-item>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

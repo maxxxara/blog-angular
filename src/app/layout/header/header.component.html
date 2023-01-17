@@ -1,0 +1,18 @@
+<header class="py-10" [style.background]="bg">
+    <div class="container flex justify-between items-center">
+        <div class="logo">
+            <a routerLink="">
+                <img src="../../../assets/logo.svg" class="w-[100px] h-[30px]">
+            </a>
+        </div>
+        <ul class="flex items-center font-medium text-sm gap-10">
+            <li class="md:hidden"><a routerLink="/" class="hover:text-pink transition-all">Home</a></li>
+            <li class="md:hidden"><a routerLink="/type/new" class="hover:text-pink transition-all">New</a></li>
+            <li class="md:hidden"><a routerLink="/topics" class="hover:text-pink transition-all">Topics</a></li>
+            <li class="md:hidden"><a routerLink="/contact"  class="hover:text-pink transition-all">Contact</a></li>
+            <a routerLink="/contact">   
+                <button class="bg-blue px-6 py-2 text-sm font-semibold text-white rounded-xl tracking-wider transition-all duration-500 border-2 border-blue hover:bg-transparent hover:text-blue">Subscribe</button>
+            </a>
+        </ul>
+    </div>
+</header>

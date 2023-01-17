@@ -1,0 +1,9 @@
+<a [routerLink]="['/type', item.title.toLowerCase().split(' ')[0]]">
+    <div class="bg-white shadow-xl p-10 pb-0 h-[250px] hover:-translate-y-3 transition-all duration-500">
+        <div class="flex">
+            <img src={{item.image}}>
+            <span class="ml-5 text-lg font-medium xxs:text-sm">{{item.title}}</span>
+        </div>
+        <p class="text-md tracking-wide mt-5 lg:text-sm">{{item.desc}}</p>
+    </div>
+</a>
